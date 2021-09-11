@@ -1,0 +1,25 @@
+{
+  "name": "ts-parcel-template",
+  "version": "1.0.0",
+  "description": "Ts 自动更新，自动保存，自动打包，模板",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "dev": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangli20080808/ts-parcel-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangli20080808/ts-parcel-template/issues"
+  },
+  "homepage": "https://github.com/zhangli20080808/ts-parcel-template#readme",
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
